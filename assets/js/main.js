@@ -645,6 +645,37 @@
   });
 
   /**************************************
+   ***** 12. Hero Slider *****
+   **************************************/
+
+const heroSlider = new Swiper(".heroSlider", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    speed: 1000,
+    loop: true,
+    autoplay:false,
+
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+
+    navigation: {
+        nextEl: ".hero-next",
+        prevEl: ".hero-prev",
+    },
+
+    pagination: {
+        el: ".hero-pagination",
+        clickable: true,
+    },
+});
+
+heroSlider.on("afterInit", () => {
+    ScrollTrigger.refresh();
+});
+
+  /**************************************
    ***** 12. Process Slider *****
    **************************************/
   // NAV SLIDER

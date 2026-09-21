@@ -1,113 +1,125 @@
-<header class="main-header">
-    <nav class="main-menu">
-        <div class="main-menu__wrapper">
-            <div class="container">
-                <div class="main-menu__wrapper-inner">
-                    <!-- Logo -->
-                    <div class="main-menu__logo">
-                        <a href="index.php">
-                            <img src="assets/images/logo/logo.png" alt="Poddar Nursing Home Hospital">
-                        </a>
-                    </div>
-                    <div class="main-menu__main-menu-box-outer">
-                        <!-- Top Header -->
-                        <div class="main-menu__main-menu-box-outer-top">
-                            <ul class="list-unstyled main-menu__contact-list">
-                                <li>
-                                    <div class="icon">
-                                        <i class="icon-phone-call"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="tel:+919958170476">+91 99581 70476</a></p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fab fa-whatsapp"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="https://wa.me/919318413696" target="_blank">WhatsApp: +91 93184 13696</a></p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="icon-email"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>
-                                            <a href="mailto:poddarhospital@gmail.com">
-                                                poddarhospital@gmail.com
-                                            </a>
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="main-menu__social">
-                                <a href="#"><i class="icon-facebook-app-symbol"></i></a>
-                                <a href="#"><i class="icon-instagram"></i></a>
-                                <a href="#"><i class="icon-linkedin"></i></a>
-                            </div>
-                        </div>
-
-                        <!-- Navigation -->
-                        <div class="main-menu__main-menu-box-content">
-                            <div class="main-menu__main-menu-box">
-                                <a href="#" class="mobile-nav__toggler">
-                                    <i class="fa fa-bars"></i>
-                                </a>
-                                <ul class="main-menu__list">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="about-us.php">About Us</a></li>
-                                    <li class="dropdown">
-                                        <a href="#">Departments</a>
-                                        <ul>
-                                            <li><a href="general-medicine.php">General Medicine</a></li>
-                                            <li><a href="general-surgery.php">General Surgery</a></li>
-                                            <li><a href="orthopaedics.php">Orthopaedics</a></li>
-                                            <li><a href="obstetrics-gynaecology.php">Obstetrics & Gynaecology</a></li>
-                                            <li><a href="laparoscopic-surgery.php">Laparoscopic Surgery</a></li>
-                                            <li><a href="pathology.php">Pathology</a></li>
-                                            <li><a href="physiotherapy.php">Physiotherapy</a></li>
-                                            <li><a href="dental-care.php">Dental Care</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="doctors.php">Doctors</a></li>
-                                    <li><a href="gallery.php">Gallery</a></li>
-                                    <li><a href="blog.php">Blog</a></li>
-                                    <li><a href="contact-us.php">Contact</a></li>
-                                </ul>
-
-                            </div>
-
-                            <!-- CTA Buttons -->
-                            <div class="main-menu__search-cart-btn-box">
-
-                                <div class="main-menu-two__btn-box">
-                                    <a href="contact-us.php" class="thm-btn">
-                                        <span class="fas fa-arrow-right"></span>
-                                        Book Appointment
-                                    </a>
-                                </div>
-
-                                <!-- <div class="main-menu-two__btn-box" style="margin-left:10px;">
-                                    <a href="https://wa.me/919318413696" target="_blank" class="thm-btn" style="background:#25D366;">
-                                        <i class="fab fa-whatsapp"></i>
-                                        WhatsApp
-                                    </a>
-                                </div> -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+  <header class="vs-header bg-fixed">
+    <div class="sticky-wrapper">
+      <div class="sticky-active">
+        <div class="container">
+          <div class="menu-container">
+            <div class="row justify-content-between align-items-center">
+              <div class="col">
+                <div class="d-flex align-items-center justify-content-start position-relative">
+                  <button class="vs-menu-toggle d-inline-block d-xl-none">
+                    <i class="fal fa-bars"></i>
+                  </button>
+                  <div class="vs-header__logo">
+                    <a href="index.html">
+                      <img src="assets/img/logo.png" alt="Kliniko" class="logo">
+                    </a>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </nav>
-</header>
+              </div>
+              <div class="col-auto">
+                <nav class="main-menu d-none d-xl-block">
+                  <ul>
+                    <li class="menu-item-has-children">
+                      <a href="index.html">
+                        Home
+                      </a>
+                      <ul class="sub-menu">
+                        <li><a href="index.html">Home 01</a></li>
+                        <li><a href="index-2.html">Home 02</a></li>
+                        <li><a href="index-3.html">Home 03</a></li>
+                        <li><a href="index-4.html">Home 04</a></li>
+                        <li><a href="index-5.html">Home 05</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="about.html"> about</a> </li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html"> service </a>
+                      <ul class="sub-menu">
+                        <li><a href="service.html">service</a></li>
+                        <li><a href="service-details.html">service details</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-has-children mega-menu-wrap">
+                      <a href="javascript:void(0)">
+                        Pages
+                      </a>
+                      <ul class="mega-menu">
+                        <li><span>Page List 1</span>
+                          <ul>
+                            <li><a href="index.html">Home 01</a></li>
+                            <li><a href="index-2.html">Home 02</a></li>
+                            <li><a href="index-3.html">Home 03</a></li>
+                            <li><a href="index-4.html">Home 04</a></li>
+                            <li><a href="index-5.html">Home 05</a></li>
+                          </ul>
+                        </li>
+                        <li><span>Page List 2</span>
+                          <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="service.html">service</a></li>
+                            <li><a href="service-details.html">service details</a></li>
+                            <li><a href="doctors.html">doctors</a></li>
+                          </ul>
+                        </li>
+                        <li><span>Page List 3</span>
+                          <ul>
+                            <li><a href="doctors-details.html">doctors details</a></li>
+                            <li><a href="case.html">case study</a></li>
+                            <li><a href="case-details.html">case details</a></li>
+                            <li><a href="blog.html">Blog Standerd</a></li>
+                          </ul>
+                        </li>
+                        <li><span>Page List 4</span>
+                          <ul>
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="404.html">404 Page</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
 
-<div class="stricky-header stricked-menu main-menu">
-    <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-</div><!-- /.stricky-header -->
+                    <li class="menu-item-has-children">
+                      <a href="blog.html"> Blog </a>
+                      <ul class="sub-menu">
+                        <li><a href="blog.html">Blog Standerd</a></li>
+                        <li><a href="blog-grid.html">Blog grid</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="contact.html">
+                        contact
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-auto">
+                <div class="vs-header__action">
+                  <div class="d-none d-xxl-inline-flex align-items-center H-call">
+                    <div class="call-icon">
+                      <i class="fa-solid fa-headphones"></i>
+                    </div>
+                    <p><span>Emergency Call</span> (000) 920-448-963</p>
+                  </div>
+
+                  <!-- <div class="d-none d-md-inline">
+                    <button class="searchBoxTggler">
+                      <i class="far fa-search"></i>
+                    </button>
+                  </div> -->
+                  <div class="d-none d-sm-inline-flex">
+                    <a href="contact.html" class="vsBtn">appoinment
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
