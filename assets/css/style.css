@@ -81,7 +81,7 @@ Version: 1.0.0
   --vs-theme-color5-rgb: 19, 98, 130;
   --vs-title-color: #092760;
   --vs-title-color-rgb: 14, 29, 76;
-  --vs-body-color: #7C7C7C;
+  --vs-body-color: #333;
   --vs-body-color-rgb: 124, 124, 124;
   --vs-smoke-color: #eff1f5;
   --vs-black-color: #000000;
@@ -90,14 +90,14 @@ Version: 1.0.0
   --vs-yellow-color: #fec624;
   --vs-success-color: #28a745;
   --vs-error-color: #D62129;
-  --vs-img-bg-color: #F1F7F3;
+  --vs-img-bg-color: #e9f4fe;
   --vs-title-font: 'Montserrat', sans-serif;
   --vs-body-font: 'Inter', sans-serif;
   --vs-special-font: 'Inter', sans-serif;
   --vs-icon-font: 'Font Awesome 6 Pro';
   --vs-main-container: 1320px;
   --vs-container-gutters: 30px;
-  --vs-section-space: 110px;
+  --vs-section-space: 80px;
   --vs-section-space-mobile: 80px;
   --vs-section-title-space: 48px;
   --ripple-ani-duration: 5s;
@@ -278,6 +278,10 @@ h6,
   font-size: clamp(0.875rem, 1vw + 0.25rem, 1rem);
   /* 14px - 16px */
   line-height: 1.6;
+}
+
+.bg{
+    background-color: #e9f4fe;
 }
 
 /*------------------- 1.5. Responsive -------------------*/
@@ -1651,7 +1655,7 @@ input[type=email]::placeholder {
   text-transform: capitalize;
   text-decoration: none;
   border: none;
-  border-radius: 50px;
+    border-radius: 9px;
   font-family: var(--vs-title-font);
   font-size: 16px;
   font-weight: 600;
@@ -2641,9 +2645,9 @@ a.text-theme:hover,
   top: -100%;
   right: 0;
   left: 0;
-  background: linear-gradient(90deg, var(--vs-title-color) 0%, var(--vs-theme-color1) 50%, var(--vs-theme-color2) 100%);
-  transition: all ease 0.8s;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
+    background: #fff;
+    transition: all ease 0.8s;
+    box-shadow: 0 0 10px 0 rgb(0 3 9 / 18%);
 }
 .will-sticky .sticky-active.active {
   top: 0;
@@ -5229,9 +5233,9 @@ a.text-theme:hover,
 }
 
 /*------------------- 4.7. About Part -------------------*/
-.vs-about .vs-title__main {
+/* .vs-about .vs-title__main {
   max-width: 630px;
-}
+} */
 @media (max-width: 1300px) {
   .vs-about .vs-title__main {
     max-width: 600px;
@@ -5262,12 +5266,13 @@ a.text-theme:hover,
 }
 .vs-about__wrap .ab-experience h2,
 .vs-about__wrap .ab-experience h1 {
-  font-size: 74px;
+  font-size: 60px;
   background: linear-gradient(90deg, var(--vs-theme-color2) 0%, var(--vs-theme-color1) 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  margin-bottom: 0;
 }
 .vs-about__wrap .ab-experience p {
   font-size: 20px;
@@ -5402,7 +5407,7 @@ a.text-theme:hover,
   position: relative;
 }
 .vs-about.style2 .abImg.style2 img {
-  mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQ1IiBoZWlnaHQ9IjYzMiIgdmlld0JveD0iMCAwIDY0NSA2MzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0zOTAgMjM5QzM5MCAyNTAuMDQ2IDM5OC45NTQgMjU5IDQxMCAyNTlINjI1QzYzNi4wNDYgMjU5IDY0NSAyNjcuOTU0IDY0NSAyNzlWNjEyQzY0NSA2MjMuMDQ2IDYzNi4wNDYgNjMyIDYyNSA2MzJIMjEwQzE5OC45NTQgNjMyIDE5MCA2MjMuMDQ2IDE5MCA2MTJWNTI3QzE5MCA0ODAuMDU2IDE1MS45NDQgNDQyIDEwNSA0NDJIMjBDOC45NTQzIDQ0MiAwIDQzMy4wNDYgMCA0MjJWMjBDMCA4Ljk1NDMgOC45NTQzMSAwIDIwIDBIMzcwQzM4MS4wNDYgMCAzOTAgOC45NTQzIDM5MCAyMFYyMzlaIiBmaWxsPSIjRDlEOUQ5Ii8+CjxtYXNrIGlkPSJtYXNrMF8yNzczNV8xNDMiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSI2NDUiIGhlaWdodD0iNjMyIj4KPHBhdGggZD0iTTM5MCAyMzlDMzkwIDI1MC4wNDYgMzk4Ljk1NCAyNTkgNDEwIDI1OUg2MjVDNjM2LjA0NiAyNTkgNjQ1IDI2Ny45NTQgNjQ1IDI3OVY2MTJDNjQ1IDYyMy4wNDYgNjM2LjA0NiA2MzIgNjI1IDYzMkgyMTBDMTk4Ljk1NCA2MzIgMTkwIDYyMy4wNDYgMTkwIDYxMlY1MjdDMTkwIDQ4MC4wNTYgMTUxLjk0NCA0NDIgMTA1IDQ0MkgyMEM4Ljk1NDMgNDQyIDAgNDMzLjA0NiAwIDQyMlYyMEMwIDguOTU0MyA4Ljk1NDMxIDAgMjAgMEgzNzBDMzgxLjA0NiAwIDM5MCA4Ljk1NDMgMzkwIDIwVjIzOVoiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzI3NzM1XzE0MykiPgo8cmVjdCBvcGFjaXR5PSIwLjIiIHdpZHRoPSI2NDUiIGhlaWdodD0iNjMyIiBmaWxsPSIjMEUxRDRDIi8+CjwvZz4KPC9zdmc+Cg==);
+  /* mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQ1IiBoZWlnaHQ9IjYzMiIgdmlld0JveD0iMCAwIDY0NSA2MzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0zOTAgMjM5QzM5MCAyNTAuMDQ2IDM5OC45NTQgMjU5IDQxMCAyNTlINjI1QzYzNi4wNDYgMjU5IDY0NSAyNjcuOTU0IDY0NSAyNzlWNjEyQzY0NSA2MjMuMDQ2IDYzNi4wNDYgNjMyIDYyNSA2MzJIMjEwQzE5OC45NTQgNjMyIDE5MCA2MjMuMDQ2IDE5MCA2MTJWNTI3QzE5MCA0ODAuMDU2IDE1MS45NDQgNDQyIDEwNSA0NDJIMjBDOC45NTQzIDQ0MiAwIDQzMy4wNDYgMCA0MjJWMjBDMCA4Ljk1NDMgOC45NTQzMSAwIDIwIDBIMzcwQzM4MS4wNDYgMCAzOTAgOC45NTQzIDM5MCAyMFYyMzlaIiBmaWxsPSIjRDlEOUQ5Ii8+CjxtYXNrIGlkPSJtYXNrMF8yNzczNV8xNDMiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSI2NDUiIGhlaWdodD0iNjMyIj4KPHBhdGggZD0iTTM5MCAyMzlDMzkwIDI1MC4wNDYgMzk4Ljk1NCAyNTkgNDEwIDI1OUg2MjVDNjM2LjA0NiAyNTkgNjQ1IDI2Ny45NTQgNjQ1IDI3OVY2MTJDNjQ1IDYyMy4wNDYgNjM2LjA0NiA2MzIgNjI1IDYzMkgyMTBDMTk4Ljk1NCA2MzIgMTkwIDYyMy4wNDYgMTkwIDYxMlY1MjdDMTkwIDQ4MC4wNTYgMTUxLjk0NCA0NDIgMTA1IDQ0MkgyMEM4Ljk1NDMgNDQyIDAgNDMzLjA0NiAwIDQyMlYyMEMwIDguOTU0MyA4Ljk1NDMxIDAgMjAgMEgzNzBDMzgxLjA0NiAwIDM5MCA4Ljk1NDMgMzkwIDIwVjIzOVoiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzI3NzM1XzE0MykiPgo8cmVjdCBvcGFjaXR5PSIwLjIiIHdpZHRoPSI2NDUiIGhlaWdodD0iNjMyIiBmaWxsPSIjMEUxRDRDIi8+CjwvZz4KPC9zdmc+Cg==); */
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: cover;
@@ -5416,14 +5421,14 @@ a.text-theme:hover,
   z-index: 2;
 }
 .vs-about.style2 .abImg.style2 .vs-about__wrap .ab-experience {
-  width: 225px;
-  height: 230px;
+width: 190px;
+    height: 195px;
   padding: 30px;
 }
 .vs-about.style2 .abImg.style2 .circle {
   position: absolute;
-  width: 160px;
-  height: 160px;
+width: 140px;
+    height: 140px;
   left: 0;
   bottom: 0;
   border-radius: 50%;
@@ -5549,7 +5554,7 @@ a.text-theme:hover,
 }
 @media (max-width: 1400px) {
   .vs-about.style2 .vs-title__main {
-    max-width: 570px;
+    /* max-width: 570px; */
     font-size: 45px;
   }
   .vs-about.style2 .abImg .para-img img {
@@ -5566,7 +5571,7 @@ a.text-theme:hover,
     margin: 0 0 30px !important;
   }
   .vs-about.style2 .vs-title__main {
-    max-width: 510px;
+    /* max-width: 510px; */
     font-size: 40px;
   }
   .vs-about.style2 .abImg .para-img img {

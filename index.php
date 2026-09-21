@@ -6,25 +6,20 @@ include('include/data.php');
 <!-- Hero Slider -->
 <div class="swiper heroSlider">
     <div class="swiper-wrapper">
-
         <div class="swiper-slide">
             <img src="assets/img/hero/banner-one.jpg" alt="Banner 1">
         </div>
-
         <div class="swiper-slide">
             <img src="assets/img/hero/banner-two.jpg" alt="Banner 1">
         </div>
     </div>
-
     <!-- Navigation -->
     <div class="hero-prev">
         <i class="fa-solid fa-chevron-left"></i>
     </div>
-
     <div class="hero-next">
         <i class="fa-solid fa-chevron-right"></i>
     </div>
-
     <!-- Pagination -->
     <div class="hero-pagination"></div>
 </div>
@@ -35,16 +30,16 @@ include('include/data.php');
 <section class="vs-about style2 space">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-12">
+            <div class="col-xl-5 col-lg-12">
                 <div class="abImg style2 wow animate__fadeInUp" data-wow-delay="0.2s">
                     <img src="assets/img/about/about-img-h3.jpg" alt="image" loading="lazy">
-                    <div class="vs-about__wrap">
+                    <!-- <div class="vs-about__wrap">
                         <div class="ab-experience ">
                             <h1>25+</h1>
                             <p>Years of Experience</p>
                         </div>
-                    </div>
-                    <div class="circle">
+                    </div> -->
+                    <!-- <div class="circle">
                         <div class="circle-logo"><img src="assets/img/icons/Logo.png" alt="logo"></div>
                         <svg viewbox="0 0 100 100" class="rotating-svg">
                             <path id="circlePath" d="M 50,50 m -40,0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" fill="transparent"></path>
@@ -54,48 +49,59 @@ include('include/data.php');
                                 </textpath>
                             </text>
                         </svg>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-12 ps-xl-5">
-                <div class="vs-title home3 mb-35 mt-5 animation-style2">
+            <div class="col-xl-7 col-lg-12 ps-xl-5">
+                <div class="vs-title home3 mb-25 mt-2 animation-style2">
                     <p class="vs-title__sub">
-                        <img src="assets/img/icons/title-icon.svg" alt="Icon"> About Kliniko
+                        <img src="assets/img/icons/title-icon.svg" alt="Icon"> About Sadhana Clinic
                     </p>
-                    <h2 class="vs-title__main title-anime">We Are Delivering Trusted Healthcare Anywhere</h2>
+                    <h2 class="vs-title__main title-anime">Expert Consultation for Better Health Every Day</h2>
                 </div>
+
                 <div class="vs-about__right wow animate__fadeInUp" data-wow-delay="0.2s">
-                    <p>Ambulant Home delivers reliable home-based medical care with skilled doctors, trained nurses, and
-                        essential diagnostic support. Our services ensure comfort, convenience, and trustworthy treatment right
-                        where patients feel safest.</p>
+                    <p>
+                        Sadhana Clinic provides trusted and personalized medical care under the guidance of
+                        <strong>Senior Consultant Physician Dr. M. K. Singh</strong>. With a patient-first approach,
+                        we offer expert consultation, accurate diagnosis, and comprehensive treatment to help
+                        individuals and families achieve better health with confidence and compassionate care.
+                    </p>
+
                     <div class="ab-Box">
                         <div class="question">
-                            <h3>Have Any Question?</h3>
-                            <p>ast, friendly, and reliable call support for any medical help you need.</p>
+                            <h3>Need a Consultation?</h3>
+                            <p>Get expert guidance for your health needs.</p>
                             <div class="d-inline-flex align-items-center">
                                 <div class="call-icon">
-                                    <svg width="60" height="60" viewbox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 30C0 13.4315 13.4315 0 30 0H50C55.5228 0 60 4.47715 60 10V30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30Z" fill="url(#paint0_linear_27581_27)"></path>
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 30C0 13.4315 13.4315 0 30 0H50C55.5228 0 60 4.47715 60 10V30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30Z" fill="url(#paint0_linear_27581_27)" />
                                         <defs>
-                                            <lineargradient id="paint0_linear_27581_27" x1="60" y1="30" x2="0" y2="30" gradientunits="userSpaceOnUse">
-                                                <stop offset="0" stop-color="#159AAF"></stop>
-                                                <stop offset="1" stop-color="#5959EB"></stop>
-                                            </lineargradient>
+                                            <linearGradient id="paint0_linear_27581_27" x1="60" y1="30" x2="0" y2="30" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#159AAF" />
+                                                <stop offset="1" stop-color="#5959EB" />
+                                            </linearGradient>
                                         </defs>
                                     </svg>
                                     <i class="fa-solid fa-headphones"></i>
                                 </div>
-                                <p class="e-call"><span>Emergency Call</span> (000) 920-448-963</p>
+
+                                <p class="e-call">
+                                    <span>Call for Appointment</span> 9319953320
+                                </p>
                             </div>
                         </div>
+
                         <div>
                             <ul>
-                                <li><i class="fa-solid fa-badge-check"></i> Trusted Healthcare Team</li>
-                                <li><i class="fa-solid fa-badge-check"></i> Home-Based Medical Services</li>
-                                <li><i class="fa-solid fa-badge-check"></i> Patient-Focused Approach</li>
-                                <li><i class="fa-solid fa-badge-check"></i> Emergency & On-Call Assistance</li>
+                                <li><i class="fa-solid fa-badge-check"></i> Senior Consultant Physician Care</li>
+                                <li><i class="fa-solid fa-badge-check"></i> Personalized Medical Consultation</li>
+                                <li><i class="fa-solid fa-badge-check"></i> Accurate Diagnosis & Treatment</li>
+                                <li><i class="fa-solid fa-badge-check"></i> Patient-Centered Healthcare</li>
                             </ul>
-                            <a href="about.html" class="vsBtn">Read More
+
+                            <a href="about.html" class="vsBtn">
+                                Read More
                                 <span></span>
                             </a>
                         </div>
@@ -108,90 +114,88 @@ include('include/data.php');
 <!-- About Part End-->
 
 <!-- Service Part Start -->
-<section class="vs-service style3 z-index-common space-top bg-img-color">
+<section class="vs-service z-index-common space bg" data-bg-src="assets/img/bg/case-h1-overlay.png">
     <div class="container">
-        <div class="d-md-flex align-items-center justify-content-between d-sm-block">
-            <div class="vs-title animation-style2">
-                <p class="vs-title__sub">
-                    <img src="assets/img/icons/title-icon.svg" alt="Icon" class="pe-1"> service <img src="assets/img/icons/title-icon.svg" alt="Icon" class="ps-1">
-                </p>
-                <h2 class="vs-title__main title-anime">Delivering Trusted Medical Care With Precision</h2>
-            </div>
-            <div class="vs-navigation style2">
-                <div id="style5_prev" class="swiper-prevBtn">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </div>
-                <div id="style5_next" class="swiper-nextBtn">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
+        <div class="vs-title text-center animation-style2">
+            <p class="vs-title__sub">
+                <img src="assets/img/icons/title-icon.svg" alt="Icon" class="pe-1"> service <img src="assets/img/icons/title-icon.svg" alt="Icon" class="ps-1">
+            </p>
+            <h2 class="vs-title__main title-anime">Delivering Trusted Medical Care With Precision</h2>
         </div>
 
-        <div class="swiper" data-swiper="" data-xl="3" data-gap-xl="30" data-lg="2" data-nav-next="#style5_next" data-nav-prev="#style5_prev">
+        <div class="swiper" data-swiper="" data-xl="3" data-gap-xl="30" data-nav-next="#style1_next" data-nav-prev="#style1_prev">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.2s">
-                        <div class="vs-service__img">
-                            <img src="assets/img/service/ser-img-h3.jpg" alt="Image" class="serImg">
-                            <div class="ser_icon">
-                                <img src="assets/img/service/ser-h3-icon1.svg" alt="Icon">
-                            </div>
+                        <div class="vs-service__icon">
+                            <div class="ser_icon"><img src="assets/img/service/ser-h1-icon1.svg" alt="Icon"></div>
+                            <span class="ser_number">01</span>
                         </div>
                         <div class="vs-service__txt">
                             <a href="service.html">
-                                <h3>General Dental Checkup Services</h3>
+                                <h3>General Medicine And Primary Care</h3>
                             </a>
+                            <p>Our doctors visit your home to provide timely checkups and essential medical guidance with complete
+                                care.</p>
                             <a href="service.html" class="ser_btn">read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.2s">
-                        <div class="vs-service__img">
-                            <img src="assets/img/service/ser-img1-h3.jpg" alt="Image" class="serImg">
-                            <div class="ser_icon">
-                                <img src="assets/img/service/ser-h3-icon2.svg" alt="Icon">
-                            </div>
+                    <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.3s">
+                        <div class="vs-service__icon">
+                            <div class="ser_icon"><img src="assets/img/service/ser-h1-icon2.svg" alt="Icon"></div>
+                            <span class="ser_number">02</span>
                         </div>
                         <div class="vs-service__txt">
                             <a href="service.html">
-                                <h3>Teeth Cleaning & Scaling Services</h3>
+                                <h3>Emergency & Critical Care Service</h3>
                             </a>
+                            <p>Immediate medical support for urgent illnesses,injuries, and life-threatening conditionscare.</p>
                             <a href="service.html" class="ser_btn">read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.2s">
-                        <div class="vs-service__img">
-                            <img src="assets/img/service/ser-img2-h3.jpg" alt="Image" class="serImg">
-                            <div class="ser_icon">
-                                <img src="assets/img/service/ser-h3-icon3.svg" alt="Icon">
-                            </div>
+                    <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.4s">
+                        <div class="vs-service__icon">
+                            <div class="ser_icon"><img src="assets/img/service/ser-h1-icon3.svg" alt="Icon"></div>
+                            <span class="ser_number">03</span>
                         </div>
                         <div class="vs-service__txt">
                             <a href="service.html">
-                                <h3>Dental Fillings And Restorations</h3>
+                                <h3>Diagnostics & Laboratory Services</h3>
                             </a>
+                            <p>Accurate blood tests, imaging, ECG, and other diagnostics for proper evaluation and timely medical
+                                decision-making.</p>
                             <a href="service.html" class="ser_btn">read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.2s">
-                        <div class="vs-service__img">
-                            <img src="assets/img/service/ser-img1-h3.jpg" alt="Image" class="serImg">
-                            <div class="ser_icon">
-                                <img src="assets/img/service/ser-h3-icon1.svg" alt="Icon">
-                            </div>
+                    <div class="vs-service__wrap wow animate__fadeInUp" data-wow-delay="0.5s">
+                        <div class="vs-service__icon">
+                            <div class="ser_icon"><img src="assets/img/service/ser-h1-icon2.svg" alt="Icon"></div>
+                            <span class="ser_number">04</span>
                         </div>
                         <div class="vs-service__txt">
                             <a href="service.html">
-                                <h3>General Dental Checkup Services</h3>
+                                <h3>General Medicine And Primary Care</h3>
                             </a>
+                            <p>Our doctors visit your home to provide timely checkups and essential medical guidance with complete
+                                care.</p>
                             <a href="service.html" class="ser_btn">read more</a>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="vs-navigation">
+                <div id="style1_prev" class="swiper-prevBtn">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div id="style1_next" class="swiper-nextBtn">
+                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>
