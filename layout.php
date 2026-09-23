@@ -7,9 +7,6 @@
     <title>
         Sadhana Clinic
     </title>
-    <meta name="author" content="vecuro">
-    <meta name="description" content="kliniko - Medical Hospital & Doctors Clinic HTML5 Template">
-    <meta name="keywords" content="kliniko - Medical Hospital & Doctors Clinic HTML5 Template">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

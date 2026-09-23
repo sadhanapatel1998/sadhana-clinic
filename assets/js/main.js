@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
   /*=================================
-      JS Index Here
+      JS Index Herevs-service
   ==================================*/
   /*
     01. Preloader Must Needed In Your Project

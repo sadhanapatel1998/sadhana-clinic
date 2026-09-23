@@ -19,77 +19,39 @@
               <div class="col-auto">
                 <nav class="main-menu d-none d-xl-block">
                   <ul>
-                    <li class="menu-item-has-children">
-                      <a href="index.html">
+                    <li>
+                      <a href="index.php">
                         Home
                       </a>
-                      <ul class="sub-menu">
-                        <li><a href="index.html">Home 01</a></li>
-                        <li><a href="index-2.html">Home 02</a></li>
-                        <li><a href="index-3.html">Home 03</a></li>
-                        <li><a href="index-4.html">Home 04</a></li>
-                        <li><a href="index-5.html">Home 05</a></li>
-                      </ul>
                     </li>
-                    <li><a href="about.html"> about</a> </li>
+                    <li><a href="about-us.php"> about</a> </li>
                     <li class="menu-item-has-children">
-                      <a href="service.html"> service </a>
+                      <a href="javascript:void(0)"> service </a>
                       <ul class="sub-menu">
-                        <li><a href="service.html">service</a></li>
-                        <li><a href="service-details.html">service details</a></li>
-                      </ul>
-                    </li>
-                    <li class="menu-item-has-children mega-menu-wrap">
-                      <a href="javascript:void(0)">
-                        Pages
-                      </a>
-                      <ul class="mega-menu">
-                        <li><span>Page List 1</span>
-                          <ul>
-                            <li><a href="index.html">Home 01</a></li>
-                            <li><a href="index-2.html">Home 02</a></li>
-                            <li><a href="index-3.html">Home 03</a></li>
-                            <li><a href="index-4.html">Home 04</a></li>
-                            <li><a href="index-5.html">Home 05</a></li>
-                          </ul>
-                        </li>
-                        <li><span>Page List 2</span>
-                          <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="service.html">service</a></li>
-                            <li><a href="service-details.html">service details</a></li>
-                            <li><a href="doctors.html">doctors</a></li>
-                          </ul>
-                        </li>
-                        <li><span>Page List 3</span>
-                          <ul>
-                            <li><a href="doctors-details.html">doctors details</a></li>
-                            <li><a href="case.html">case study</a></li>
-                            <li><a href="case-details.html">case details</a></li>
-                            <li><a href="blog.html">Blog Standerd</a></li>
-                          </ul>
-                        </li>
-                        <li><span>Page List 4</span>
-                          <ul>
-                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="404.html">404 Page</a></li>
-                          </ul>
-                        </li>
+                        <li><a href="internal-medicine.php">Internal Medicine</a></li>
+                        <li><a href="diabetes-care.php">Diabetes Care</a></li>
+                        <li><a href="endocrine-disorders.php">Endocrine Disorders</a></li>
+                        <li><a href="infectious-diseases.php">Infectious Diseases</a></li>
+                        <li><a href="hypertension.php">Hypertension</a></li>
+                        <li><a href="cardiovascular-medicines.php">Cardiovascular Medicines</a></li>
+                        <li><a href="respiratory-medicines.php">Respiratory Medicines</a></li>
+                        <li><a href="gastrointestinal-diseases.php">Gastrointestinal Diseases</a></li>
+                        <li><a href="general-medicine.php">General Medicine</a></li>
                       </ul>
                     </li>
 
-                    <li class="menu-item-has-children">
-                      <a href="blog.html"> Blog </a>
-                      <ul class="sub-menu">
-                        <li><a href="blog.html">Blog Standerd</a></li>
-                        <li><a href="blog-grid.html">Blog grid</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                      </ul>
+                    <!-- <li>
+                      <a href="doctor.php"> Doctor </a>
+                    </li> -->
+
+                    <li>
+                      <a href="gallery.php"> Gallery </a>
                     </li>
                     <li>
-                      <a href="contact.html">
+                      <a href="blogs.php"> Blogs </a>
+                    </li>
+                    <li>
+                      <a href="contact-us.php">
                         contact
                       </a>
                     </li>
@@ -102,16 +64,11 @@
                     <div class="call-icon">
                       <i class="fa-solid fa-headphones"></i>
                     </div>
-                    <p><span>Emergency Call</span> (000) 920-448-963</p>
+                    <p><span>Emergency Call</span>+91 9910431665</p>
                   </div>
 
-                  <!-- <div class="d-none d-md-inline">
-                    <button class="searchBoxTggler">
-                      <i class="far fa-search"></i>
-                    </button>
-                  </div> -->
                   <div class="d-none d-sm-inline-flex">
-                    <a href="contact.html" class="vsBtn">appoinment
+                    <a href="contact-us.php" class="vsBtn">appoinment
                       <span></span>
                     </a>
                   </div>
