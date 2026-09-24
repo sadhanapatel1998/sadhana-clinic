@@ -42,20 +42,21 @@ include('include/data.php');
                 <div class="vs-about__right wow animate__fadeInUp" data-wow-delay="0.2s">
                     <p>
                         Sadhana Clinic provides trusted and personalized medical care under the guidance of
-                        <strong>Senior Consultant Physician Dr. M. K. Singh</strong>, who brings over
-                        <strong>30 years of experience</strong> in Internal Medicine. We offer expert consultation,
-                        accurate diagnosis, and comprehensive treatment to help individuals and families achieve better health with confidence.
+                        <strong>Dr. M. K. Singh, Director & Senior Consultant Internal Medicine, Narayana Super
+                            Speciality Hospital, Gurugram</strong>,
+                        who brings over <strong>30 years of experience</strong>. We offer expert consultation, accurate
+                        diagnosis, and comprehensive treatment to help individuals and families achieve better health
+                        with confidence.
                     </p>
 
                     <p class="mb-4">
-                        Our clinic is committed to delivering patient-centered healthcare through evidence-based treatment,
-                        preventive care, and personalized medical guidance. From managing diabetes, hypertension, and endocrine
-                        disorders to treating cardiovascular, respiratory, and gastrointestinal conditions, we focus on building
-                        lasting relationships with patients while ensuring compassionate care and long-term wellness.
+                        Our clinic is committed to patient-centered healthcare through evidence-based treatment,
+                        preventive care, and personalized medical guidance. We manage diabetes, hypertension, endocrine,
+                        cardiovascular, respiratory, and gastrointestinal conditions while ensuring compassionate care
+                        and long-term wellness.
                     </p>
 
-
-                    <a href="about-us.php" class="vsBtn">
+                    <a href="contact-us.php" class="vsBtn">
                         Book Appointment
                         <span></span>
                     </a>
@@ -66,12 +67,10 @@ include('include/data.php');
 </section>
 <!-- About Part End-->
 
-
 <!-- Doctor Part Start -->
 <section class="doctor-Dpage z-index-common space bg-img-color ">
     <div class="container">
         <div class="row">
-
             <!-- Left Sidebar -->
             <div class="col-lg-4">
                 <div class="doctor-Dpage__widget">
@@ -80,15 +79,13 @@ include('include/data.php');
                     </div>
                     <div class="Dpage_txt">
                         <h2>Dr. M.K. Singh</h2>
-
                         <div class="vs-appoint__box wow animate__fadeInUp" data-wow-delay="0.3s">
-
                             <div class="appoint-content">
                                 <div class="appoint-icon">
                                     <i class="fa-solid fa-headphones"></i>
                                 </div>
                                 <div class="appoint-txt">
-                                    <p><span>Phone Number</span><a href="tel:919319953320">+91 9319953320</a></p>
+                                    <p><span>Phone Number</span><a href="tel:+919910431665">+91 9910431665</a></p>
                                 </div>
                             </div>
                             <div class="appoint-content">
@@ -202,13 +199,20 @@ include('include/data.php');
                     <h3>Previous Appointments</h3>
 
                     <ul>
-                        <li><i class="fa-solid fa-hospital"></i> Director & Senior Consultant – Internal Medicine</li>
-                        <li><i class="fa-solid fa-hospital"></i> Senior Consultant & HoD, Marengo Asia Hospital,
+                        <li><i class="fa-solid fa-hospital"></i> Director & Senior Consultant Internal Medicine,
+                            Narayana Super Speciality Hospital, Gurugram</li>
+
+                        <li><i class="fa-solid fa-hospital"></i> Senior Consultant & HoD Internal Medicine, Marengo Asia
+                            Hospital, Gurugram</li>
+
+                        <li><i class="fa-solid fa-hospital"></i> Senior Consultant Internal Medicine, Paras Hospital,
                             Gurugram</li>
-                        <li><i class="fa-solid fa-hospital"></i> Senior Consultant, Paras Hospital, Gurugram</li>
-                        <li><i class="fa-solid fa-hospital"></i> Consultant, Sethi Hospital, Gurugram</li>
-                        <li><i class="fa-solid fa-hospital"></i> Senior Resident, Dr. Ram Manohar Lohia Hospital, New
-                            Delhi</li>
+
+                        <li><i class="fa-solid fa-hospital"></i> Consultant Internal Medicine, Sethi Hospital, Gurugram
+                        </li>
+
+                        <li><i class="fa-solid fa-hospital"></i> Senior Resident Internal Medicine, Dr. Ram Manohar
+                            Lohia Hospital, New Delhi</li>
                     </ul>
 
                 </div>
@@ -241,7 +245,10 @@ include('include/data.php');
                 <div class="vs-choose__wrap">
 
                     <p class="mb-30">
-                        At Sadhana Clinic, we combine over 30 years of medical expertise with compassionate, patient-first care to deliver accurate diagnosis, personalized treatment, and lasting health support for individuals and families through preventive guidance, timely consultations, and trusted care at every stage.
+                        At Sadhana Clinic, we combine over 30 years of medical expertise with compassionate,
+                        patient-first care to deliver accurate diagnosis, personalized treatment, and lasting health
+                        support for individuals and families through preventive guidance, timely consultations, and
+                        trusted care at every stage.
                     </p>
 
                     <div class="patient">
@@ -258,7 +265,8 @@ include('include/data.php');
                             </div>
                             <div class="choose-txt">
                                 <h3>Our Mission</h3>
-                                <p>Deliver trusted, evidence-based healthcare with accurate diagnosis, personalized treatment, and compassionate care for every patient.</p>
+                                <p>Deliver trusted, evidence-based healthcare with accurate diagnosis, personalized
+                                    treatment, and compassionate care for every patient.</p>
                             </div>
                         </div>
 
@@ -268,7 +276,8 @@ include('include/data.php');
                             </div>
                             <div class="choose-txt">
                                 <h3>Our Vision</h3>
-                                <p>Be a trusted healthcare destination recognized for medical excellence, patient confidence, and healthier communities.</p>
+                                <p>Be a trusted healthcare destination recognized for medical excellence, patient
+                                    confidence, and healthier communities.</p>
                             </div>
                         </div>
 
@@ -278,7 +287,8 @@ include('include/data.php');
                             </div>
                             <div class="choose-txt">
                                 <h3>Our Values</h3>
-                                <p>Integrity, compassion, clinical excellence, and respect shape every consultation, treatment decision, and patient relationship.</p>
+                                <p>Integrity, compassion, clinical excellence, and respect shape every consultation,
+                                    treatment decision, and patient relationship.</p>
                             </div>
                         </div>
 

@@ -87,41 +87,46 @@ include('include/data.php');
                         <h2 class="vs-title__main title-anime">Get In Touch</h2>
                     </div>
 
-                    <form action="mail.php" method="post" class="form-style ajax-contact wow animate__fadeInUp" data-wow-delay="0.95s">
+                    <form action="mail.php" method="post" class="form-style ajax-contact wow animate__fadeInUp whatsapp-form" data-wow-delay="0.95s">
                         <div class="row gx-20">
-                            <!-- First Name -->
                             <div class="col-md-6 form-group">
                                 <input class="form-control" type="text" name="fname" id="fname" placeholder="First name">
                                 <i class="fa-solid fa-user"></i>
                             </div>
-                            <!-- Last Name -->
+
                             <div class="col-md-6 form-group">
                                 <input class="form-control" type="text" name="lname" id="lname" placeholder="Last Name">
                                 <i class="fa-solid fa-user"></i>
                             </div>
-                            <!-- Email Address -->
+
                             <div class="col-md-6 form-group">
-                                <input class="form-control" type="email" name="email" id="email" placeholder="Email Address" required="">
+                                <input class="form-control" type="email" name="email" id="email" placeholder="Email Address" required>
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
-                            <!-- service -->
+
                             <div class="col-md-6 form-group">
-                                <select>
+                                <select name="service">
                                     <option>Select service</option>
-                                    <option>Service One</option>
-                                    <option>Service Two</option>
+                                    <option>Internal Medicine</option>
+                                    <option>Diabetes Care</option>
+                                    <option>Endocrine Disorders</option>
+                                    <option>Infectious Diseases</option>
+                                    <option>Hypertension</option>
+                                    <option>Cardiovascular Medicines</option>
+                                    <option>Respiratory Medicines</option>
+                                    <option>Gastrointestinal Diseases</option>
+                                    <option>General Medicine</option>
                                 </select>
                             </div>
-                            <!-- Message -->
+
                             <div class="col-12 form-group">
-                                <textarea class="form-control" name="message" id="message" placeholder="Message here..." rows="4" required=""></textarea>
+                                <textarea class="form-control" name="message" id="message" placeholder="Message here..." rows="4" required></textarea>
                             </div>
-                            <!-- Submit Button -->
+
                             <div class="col-12">
                                 <button class="con-btn">Send Message</button>
                             </div>
                         </div>
-                        <!-- Form Messages -->
                     </form>
                     <p class="form-messages mb-0 mt-3"></p>
                 </div>

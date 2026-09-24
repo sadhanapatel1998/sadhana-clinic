@@ -31,29 +31,12 @@ include('include/data.php');
 <section class="vs-about style2 space">
     <div class="container">
         <div class="row">
-            <div class="col-xl-5 col-lg-12">
+            <div class="col-xl-5 col-lg-12 order-md-1 order-2">
                 <div class="abImg style2 wow animate__fadeInUp" data-wow-delay="0.2s">
                     <img src="assets/img/about/about-img-h3.jpg" alt="image" loading="lazy">
-                    <!-- <div class="vs-about__wrap">
-                        <div class="ab-experience ">
-                            <h1>25+</h1>
-                            <p>Years of Experience</p>
-                        </div>
-                    </div> -->
-                    <!-- <div class="circle">
-                        <div class="circle-logo"><img src="assets/img/icons/Logo.png" alt="logo"></div>
-                        <svg viewbox="0 0 100 100" class="rotating-svg">
-                            <path id="circlePath" d="M 50,50 m -40,0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" fill="transparent"></path>
-                            <text>
-                                <textpath href="#circlePath" startoffset="0%">
-                                    we provide best services. since 2001.
-                                </textpath>
-                            </text>
-                        </svg>
-                    </div> -->
                 </div>
             </div>
-            <div class="col-xl-7 col-lg-12 ps-xl-5">
+            <div class="col-xl-7 col-lg-12 ps-xl-5 order-md-2 order-1">
                 <div class="vs-title home3 mb-25 mt-2 animation-style2">
                     <p class="vs-title__sub">
                         <img src="assets/img/icons/title-icon.svg" alt="Icon"> About Sadhana Clinic
@@ -63,9 +46,12 @@ include('include/data.php');
 
                 <div class="vs-about__right wow animate__fadeInUp" data-wow-delay="0.2s">
                     <p>
-                        Sadhana Clinic provides trusted and personalized medical care under the guidance of
-                        <strong>Senior Consultant Physician Dr. M. K. Singh</strong>, with over
-                        <strong>30 years of experience</strong>. We offer expert consultation, accurate diagnosis, and comprehensive treatment to help individuals and families achieve better health with confidence.
+                        Sadhana Clinic provides expert medical care by
+                        <strong>Dr. M. K. Singh, Director & Senior Consultant Internal Medicine, Narayana Super
+                            Speciality Hospital, Gurugram</strong>,
+                        with over <strong>30 years of experience</strong>. We offer expert consultation, accurate
+                        diagnosis, and comprehensive treatment to help individuals and families achieve better health
+                        with confidence.
                     </p>
 
                     <div class="ab-Box">
@@ -74,10 +60,14 @@ include('include/data.php');
                             <p>Get expert guidance for your health needs.</p>
                             <div class="d-inline-flex align-items-center">
                                 <div class="call-icon">
-                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 30C0 13.4315 13.4315 0 30 0H50C55.5228 0 60 4.47715 60 10V30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30Z" fill="url(#paint0_linear_27581_27)" />
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 30C0 13.4315 13.4315 0 30 0H50C55.5228 0 60 4.47715 60 10V30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30Z"
+                                            fill="url(#paint0_linear_27581_27)" />
                                         <defs>
-                                            <linearGradient id="paint0_linear_27581_27" x1="60" y1="30" x2="0" y2="30" gradientUnits="userSpaceOnUse">
+                                            <linearGradient id="paint0_linear_27581_27" x1="60" y1="30" x2="0" y2="30"
+                                                gradientUnits="userSpaceOnUse">
                                                 <stop offset="0" stop-color="#159AAF" />
                                                 <stop offset="1" stop-color="#5959EB" />
                                             </linearGradient>
@@ -87,7 +77,7 @@ include('include/data.php');
                                 </div>
 
                                 <p class="e-call">
-                                    <span>Call for Appointment</span> 9319953320
+                                    <span>Call for Appointment</span> <a href="tel:919319953320">+91 9319953320</a>
                                 </p>
                             </div>
                         </div>
@@ -126,34 +116,30 @@ include('include/data.php');
                 Delivering Trusted Medical Care With Precision
             </h2>
         </div>
-        <div class="swiper"
-            data-swiper
-            data-xl="3"
-            data-gap-xl="30"
-            data-nav-next="#style1_next"
+        <div class="swiper" data-swiper data-xl="3" data-gap-xl="30" data-nav-next="#style1_next"
             data-nav-prev="#style1_prev">
             <div class="swiper-wrapper">
                 <?php foreach ($services as $service): ?>
-                    <div class="swiper-slide vs-service--style5">
-                        <div class="vs-service__wrap">
-                            <div class="vs-service__img">
-                                <img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>" class="serImg">
-                                <div class="ser_icon">
-                                    <i class="<?= $service['icon']; ?>"></i>
-                                </div>
-                            </div>
-                            <div class="vs-service__txt">
-                                <a href="<?= $service['link']; ?>">
-                                    <h3><?= $service['title']; ?></h3>
-                                </a>
-                                <p><?= $service['desc']; ?></p>
-                                <a href="<?= $service['link']; ?>" class="ser_btn">
-                                    Read More
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+                <div class="swiper-slide vs-service--style5">
+                    <div class="vs-service__wrap">
+                        <div class="vs-service__img">
+                            <img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>" class="serImg">
+                            <div class="ser_icon">
+                                <i class="<?= $service['icon']; ?>"></i>
                             </div>
                         </div>
+                        <div class="vs-service__txt">
+                            <a href="<?= $service['link']; ?>">
+                                <h3><?= $service['title']; ?></h3>
+                            </a>
+                            <p><?= $service['desc']; ?></p>
+                            <a href="<?= $service['link']; ?>" class="ser_btn">
+                                Read More
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
                     </div>
+                </div>
                 <?php endforeach; ?>
             </div>
             <div class="vs-navigation">
@@ -187,7 +173,8 @@ include('include/data.php');
                 <div class="vs-choose__wrap">
                     <p class="text-white mb-40">
                         At Sadhana Clinic, we combine experienced physician care with a patient-first approach,
-                        ensuring accurate diagnosis, personalized treatment, and compassionate medical support for every patient.
+                        ensuring accurate diagnosis, personalized treatment, and compassionate medical support for every
+                        patient.
                     </p>
 
                     <div class="choose-content">
@@ -273,7 +260,8 @@ include('include/data.php');
                 <h2 class="vs-title__main title-anime">How We Care for Your Health</h2>
             </div>
 
-            <p>Our simple consultation process ensures timely diagnosis, personalized treatment, and trusted care for every patient.</p>
+            <p>Our simple consultation process ensures timely diagnosis, personalized treatment, and trusted care for
+                every patient.</p>
         </div>
 
         <!-- Step Navigation -->
@@ -320,7 +308,8 @@ include('include/data.php');
                                         <a href="contact-us.php">
                                             <h3>Book Appointment</h3>
                                         </a>
-                                        <p>Schedule your clinic visit online or by phone at a convenient time for a smooth start.</p>
+                                        <p>Schedule your clinic visit online or by phone at a convenient time for a
+                                            smooth start.</p>
                                     </div>
 
                                 </div>
@@ -347,7 +336,8 @@ include('include/data.php');
                                         <a href="contact-us.php">
                                             <h3>Medical Consultation</h3>
                                         </a>
-                                        <p>Our physician carefully evaluates your symptoms, reviews history, and understands your health concerns.</p>
+                                        <p>Our physician carefully evaluates your symptoms, reviews history, and
+                                            understands your health concerns.</p>
                                     </div>
 
                                 </div>
@@ -374,7 +364,8 @@ include('include/data.php');
                                         <a href="contact-us.php">
                                             <h3>Diagnosis & Evaluation</h3>
                                         </a>
-                                        <p>Accurate assessment and required tests help identify your condition for better treatment decisions.</p>
+                                        <p>Accurate assessment and required tests help identify your condition for
+                                            better treatment decisions.</p>
                                     </div>
 
                                 </div>
@@ -401,7 +392,8 @@ include('include/data.php');
                                         <a href="contact-us.php">
                                             <h3>Treatment & Follow-Up</h3>
                                         </a>
-                                        <p>Receive a personalized treatment plan with medications, lifestyle advice, and follow-up care.</p>
+                                        <p>Receive a personalized treatment plan with medications, lifestyle advice, and
+                                            follow-up care.</p>
                                     </div>
 
                                 </div>
@@ -436,7 +428,8 @@ include('include/data.php');
                                     <i class="fa-solid fa-headphones"></i>
                                 </div>
                                 <div class="appoint-txt">
-                                    <p><span>Call Us 24/7</span><a href="tel:919910431665">+91 9910431665</a></p>
+                                    <p><span>Call Us 24/7</span><a href="tel:919910431665" class="text-white">+91
+                                            9910431665</a></p>
                                 </div>
                             </div>
                             <div class="appoint-content">
@@ -444,7 +437,8 @@ include('include/data.php');
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="appoint-txt">
-                                    <p><span>Need Assistance?</span><a href="mailto:drmksingh2012@gmail.com">drmksingh2012@gmail.com</a></p>
+                                    <p><span>Need Assistance?</span><a href="mailto:drmksingh2012@gmail.com"
+                                            class="text-white">drmksingh2012@gmail.com</a></p>
                                 </div>
                             </div>
                         </div>
@@ -453,12 +447,12 @@ include('include/data.php');
 
                 <div class="col-xl-6 col-lg-12">
                     <div class="vs-appoint__form wow animate__fadeInUp" data-wow-delay="0.4s">
-                        <form action="#">
+                        <form action="#" class="whatsapp-form">
                             <div class="appoint_form">
                                 <input name="name" type="text" placeholder="your name">
-                                <input name="email" type="text" placeholder="email address" required="">
-                                <input name="phone" type="text" placeholder="phone number" required="">
-                                <input name="subject" type="text" placeholder="Subject" required="">
+                                <input name="email" type="text" placeholder="email address" required>
+                                <input name="phone" type="text" placeholder="phone number" required>
+                                <input name="subject" type="text" placeholder="Subject" required>
                             </div>
 
                             <textarea name="message" placeholder="type your message"></textarea>
@@ -498,7 +492,8 @@ include('include/data.php');
             </div>
         </div>
 
-        <div class="swiper" data-swiper="" data-xl="3" data-gap-xl="30" data-nav-next="#style3_next" data-nav-prev="#style3_prev">
+        <div class="swiper" data-swiper="" data-xl="3" data-gap-xl="30" data-nav-next="#style3_next"
+            data-nav-prev="#style3_prev">
             <div class="swiper-wrapper">
 
                 <!-- Testimonial 1 -->
@@ -523,7 +518,8 @@ include('include/data.php');
                                 <i class="fa-solid fa-star-half-stroke"></i>
                             </span>
 
-                            <p>"The consultation was thorough and reassuring. The doctor explained everything clearly and suggested a treatment plan that truly helped me recover comfortably."</p>
+                            <p>"The consultation was thorough and reassuring. The doctor explained everything clearly
+                                and suggested a treatment plan that truly helped me recover comfortably."</p>
 
                             <div class="test-admin">
                                 <h3>Priya Sharma</h3>
@@ -558,7 +554,8 @@ include('include/data.php');
                                 <i class="fa-solid fa-star-half-stroke"></i>
                             </span>
 
-                            <p>"I appreciated the patient-first approach and the detailed guidance I received during my visit. The clinic made me feel comfortable throughout the consultation."</p>
+                            <p>"I appreciated the patient-first approach and the detailed guidance I received during my
+                                visit. The clinic made me feel comfortable throughout the consultation."</p>
 
                             <div class="test-admin">
                                 <h3>Rahul Verma</h3>
@@ -593,7 +590,8 @@ include('include/data.php');
                                 <i class="fa-solid fa-star-half-stroke"></i>
                             </span>
 
-                            <p>"From booking the appointment to receiving treatment, the entire experience was smooth. The staff was polite, supportive, and always ready to help."</p>
+                            <p>"From booking the appointment to receiving treatment, the entire experience was smooth.
+                                The staff was polite, supportive, and always ready to help."</p>
 
                             <div class="test-admin">
                                 <h3>Sunita Mehra</h3>
@@ -628,7 +626,8 @@ include('include/data.php');
                                 <i class="fa-solid fa-star-half-stroke"></i>
                             </span>
 
-                            <p>"The clinic maintained excellent cleanliness and professionalism throughout my visit. I left feeling confident about my diagnosis and follow-up care."</p>
+                            <p>"The clinic maintained excellent cleanliness and professionalism throughout my visit. I
+                                left feeling confident about my diagnosis and follow-up care."</p>
 
                             <div class="test-admin">
                                 <h3>Amit Kapoor</h3>
@@ -674,7 +673,8 @@ include('include/data.php');
             </div>
         </div>
 
-        <div class="swiper blogSlider" data-swiper data-xl="3" data-md="2" data-sm="1" data-nav-next="#style6_next" data-nav-prev="#style6_prev">
+        <div class="swiper blogSlider" data-swiper data-xl="3" data-md="2" data-sm="1" data-nav-next="#style6_next"
+            data-nav-prev="#style6_prev">
 
             <div class="swiper-wrapper">
 

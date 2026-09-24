@@ -14,7 +14,7 @@
                 ];
                 ?>
 
-                <div class="widget service-widget">
+                <div class="widget service-widget mt-4 mt-md-0">
                     <h3 class="wp-block-heading">Our Services</h3>
 
                     <nav class="services-nav wow animate__fadeInUp" data-wow-delay="0.2s">

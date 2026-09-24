@@ -1,18 +1,28 @@
+<?php include 'seo.php'; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>
-        Sadhana Clinic
-    </title>
-
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Favicons - Place favicon.ico in the root directory -->
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="<?php echo htmlspecialchars($pageMeta['description']); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars($pageMeta['keywords']); ?>">
+    <!-- Author -->
+    <meta name="author" content="GoVacanzaDmc Travel & Tours">
+    <!-- Robots -->
+    <meta name="robots" content="<?php echo $pageMeta['robots']; ?>">
+    <!-- Canonical URL (Optional) -->
+    <?php if (!empty($pageMeta['canonical'])): ?>
+        <link rel="canonical" href="<?php echo $pageMeta['canonical']; ?>">
+    <?php endif; ?>
+    <!-- Page Title -->
+    <title><?php echo htmlspecialchars($pageMeta['title']); ?></title>
 
+    <!-- Favicons - Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
@@ -49,10 +59,9 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	    Preloader
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- <div class="preloader d-none">
+    <div class="preloader d-none">
         <button class="vsBtn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img loading="lazy" src="assets/img/logo.svg" alt="logo">
             <div class="content">
                 <div class="pill">
                     <div class="medicine">
@@ -64,7 +73,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		Mobile Menu
@@ -76,110 +85,53 @@
                     <i class="fa-solid fa-xmark"></i>
                 </button>
                 <div class="mobile-logo">
-                    <a href="index.html"><img loading="lazy" src="assets/img/logo.svg" alt="kliniko"></a>
+                    <img src="assets/img/logo.png" alt="Sadhana Clinic Logo" class="logo">
                 </div>
             </div>
             <div class="vs-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children">
-                        <a href="index.html">
+                    <li>
+                        <a href="index.php">
                             Home
                         </a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home 01</a></li>
-                            <li><a href="index-2.html">Home 02</a></li>
-                            <li><a href="index-3.html">Home 03</a></li>
-                            <li><a href="index-4.html">Home 04</a></li>
-                            <li><a href="index-5.html">Home 05</a></li>
-                        </ul>
                     </li>
-                    <li><a href="about.html"> about</a> </li>
+                    <li><a href="about-us.php"> about Us</a> </li>
                     <li class="menu-item-has-children">
-                        <a href="service.html"> service </a>
+                        <a href="javascript:void(0)"> service </a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">service</a></li>
-                            <li><a href="service-details.html">service details</a></li>
+                            <li><a href="internal-medicine.php">Internal Medicine</a></li>
+                            <li><a href="diabetes-care.php">Diabetes Care</a></li>
+                            <li><a href="endocrine-disorders.php">Endocrine Disorders</a></li>
+                            <li><a href="infectious-diseases.php">Infectious Diseases</a></li>
+                            <li><a href="hypertension.php">Hypertension</a></li>
+                            <li><a href="cardiovascular-medicines.php">Cardiovascular Medicines</a></li>
+                            <li><a href="respiratory-medicines.php">Respiratory Medicines</a></li>
+                            <li><a href="gastrointestinal-diseases.php">Gastrointestinal Diseases</a></li>
+                            <li><a href="general-medicine.php">General Medicine</a></li>
                         </ul>
                     </li>
 
-                    <li class="menu-item-has-children mega-menu-wrap">
-                        <a href="javascript:void(0)">
-                            Pages
-                        </a>
-                        <ul class="mega-menu">
-                            <li><a href="javascript:void(0)">Page List 1</a>
-                                <ul>
-                                    <li><a href="index.html">Home 01</a></li>
-                                    <li><a href="index-2.html">Home 02</a></li>
-                                    <li><a href="index-3.html">Home 03</a></li>
-                                    <li><a href="index-4.html">Home 04</a></li>
-                                    <li><a href="index-5.html">Home 05</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)">Page List 2</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="service.html">service</a></li>
-                                    <li><a href="service-details.html">service details</a></li>
-                                    <li><a href="doctors.html">doctors</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)">Page List 3</a>
-                                <ul>
-                                    <li><a href="doctors-details.html">doctors details</a></li>
-                                    <li><a href="case.html">case study</a></li>
-                                    <li><a href="case-details.html">case details</a></li>
-                                    <li><a href="blog.html">Blog Standerd</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)">Page List 4</a>
-                                <ul>
-                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="blog.html"> Blog </a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog Standerd</a></li>
-                            <li><a href="blog-grid.html">Blog grid</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
+                    <!-- <li>
+                      <a href="doctor.php"> Doctor </a>
+                    </li> -->
+
+                    <li>
+                        <a href="gallery.php"> Gallery </a>
                     </li>
                     <li>
-                        <a href="contact.html">
-                            contact
+                        <a href="blogs.php"> Blogs </a>
+                    </li>
+                    <li>
+                        <a href="contact-us.php">
+                            contact Us
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="mt-50 pt-50">
-                <div class="social-style mobileMenu mb-30">
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                </div>
-                <p class="sidemenu-text sidemenu-text--footer text-center mb-0">Copyright © 2026 <a class="vs-theme-color" href="index.html">kliniko</a>. All rights reserved.
-                </p>
-            </div>
+
         </div>
     </div>
 
-    <!-- ==============================
-    	Popup Search Box
-    ============================== -->
-    <div class="popup-search-box">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input id="search-field" type="text" class="border-theme" placeholder="What are you looking for">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div>
 
     <?php require_once("include/header.php"); ?>
 
@@ -203,9 +155,28 @@
             <span class="progress-percentage" id="progressPercentage">0%</span>
         </span>
     </button>
+
+    <!-- Floating Contact Buttons -->
+    <!-- Floating Contact Dock -->
+    <div class="contact-dock">
+        <a href="tel:+919319953320" class="dock-item call" aria-label="Call Sadhana Clinic">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>Call Now</span>
+        </a>
+
+        <a href="https://wa.me/919319953320?text=Hello%20Sadhana%20Clinic,%20I%20would%20like%20to%20book%20an%20appointment."
+            target="_blank"
+            class="dock-item whatsapp"
+            aria-label="WhatsApp Sadhana Clinic">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+    </div>
     <!--********************************
 			Code End  Here 
 	******************************** -->
+
+
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         All Js File
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -227,6 +198,61 @@
     <script src="assets/js/swiper-bundle.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        document.querySelectorAll(".whatsapp-form").forEach(form => {
+            form.addEventListener("submit", function(e) {
+                e.preventDefault();
+
+                const getValue = (name) => {
+                    const field = form.querySelector(`[name="${name}"]`);
+                    return field ? field.value.trim() : "";
+                };
+
+                // Detect both form structures
+                const fullName = getValue("name") || `${getValue("fname")} ${getValue("lname")}`.trim();
+                const email = getValue("email");
+                const phone = getValue("phone");
+                const subject = getValue("subject");
+                const service = getValue("service");
+                const message = getValue("message");
+
+                const text =
+                    `Hello Sadhana Clinic,
+
+                     I would like to book an appointment.
+                     
+                     *Name:* ${fullName || "N/A"}
+                     *Phone:* ${phone || "N/A"}
+                     *Email:* ${email || "N/A"}
+                     ${service ? `*Service:* ${service}\n` : ""}${subject ? `*Subject:* ${subject}\n` : ""}*Message:* ${message || "N/A"}`;
+
+                window.open(
+                    `https://wa.me/919319953320?text=${encodeURIComponent(text)}`,
+                    "_blank"
+                );
+            });
+        });
+    </script>
+    <script>
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1]
+            },
+
+            image: {
+                titleSrc: 'alt'
+            },
+
+            removalDelay: 300,
+            mainClass: 'mfp-fade'
+        });
+    </script>
 </body>
 
 </html>

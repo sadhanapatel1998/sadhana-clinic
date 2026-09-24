@@ -10,8 +10,8 @@
                     <i class="fal fa-bars"></i>
                   </button>
                   <div class="vs-header__logo">
-                    <a href="index.html">
-                      <img src="assets/img/logo.png" alt="Kliniko" class="logo">
+                    <a href="/">
+                      <img src="assets/img/logo.png" alt="Sadhana Clinic Logo" class="logo">
                     </a>
                   </div>
                 </div>
@@ -24,9 +24,9 @@
                         Home
                       </a>
                     </li>
-                    <li><a href="about-us.php"> about</a> </li>
+                    <li><a href="about-us.php"> about Us</a> </li>
                     <li class="menu-item-has-children">
-                      <a href="javascript:void(0)"> service </a>
+                      <a href="javascript:void(0)"> service <span class="vs-mean-expand"></span></a>
                       <ul class="sub-menu">
                         <li><a href="internal-medicine.php">Internal Medicine</a></li>
                         <li><a href="diabetes-care.php">Diabetes Care</a></li>
@@ -52,7 +52,7 @@
                     </li>
                     <li>
                       <a href="contact-us.php">
-                        contact
+                        contact Us
                       </a>
                     </li>
                   </ul>

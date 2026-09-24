@@ -83,10 +83,11 @@
           <h3 class="vs-footer__wrapper-title">Quick Links</h3>
           <div class="vs-footer__wrapper-content">
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="about-us.php">About Us</a></li>
+              <li><a href="gallery.php">Gallery</a></li>
+              <li><a href="blogs.php">Blogs</a></li>
+              <li><a href="contact-us.php">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -115,8 +116,8 @@
         <div class="d-block">
           <p class="vs-footer__copyright m-0 pt-2 text-center">
             Copyright © <span id="currentYear"></span>
-            <a href="index.html">Sadhana Clinic</a>.
-            All Rights Reserved.
+            <a href="index.php">Sadhana Clinic</a>. All Rights Reserved. |
+            Developed by <a href="https://hoverbusinessservices.com/" target="_blank">Hover Business Services LLP</a>
           </p>
         </div>
       </div>
