@@ -13,7 +13,7 @@ $seoData = [
     /* Home */
     "index.php" => [
         "title" => "Sadhana Clinic | Senior Consultant Physician in Gurugram",
-        "description" => "Sadhana Clinic in Sector 65, Gurugram offers expert Internal Medicine, Diabetes Care, Hypertension Treatment, Cardiovascular, Respiratory, Endocrine, and Gastrointestinal care by Dr. M. K. Singh with 30+ years of experience.",
+        "description" => "Sadhana Clinic in Sector 65, Gurugram offers expert Internal Medicine, Diabetes Care, Hypertension Treatment, Cardiovascular, Respiratory, Endocrine, and Gastrointestinal care by Dr. MK Singh with 30+ years of experience.",
         "keywords" => "Sadhana Clinic Gurugram, Senior Consultant Physician Gurugram, Internal Medicine Doctor Sector 65",
         "canonical" => "",
         "robots" => "index, follow"
@@ -22,7 +22,7 @@ $seoData = [
     /* About */
     "about-us.php" => [
         "title" => "About Sadhana Clinic | 30+ Years of Trusted Medical Care",
-        "description" => "Learn about Sadhana Clinic in Gurugram, led by Dr. M. K. Singh, providing personalized healthcare, accurate diagnosis, and compassionate medical care with over 30 years of experience.",
+        "description" => "Learn about Sadhana Clinic in Gurugram, led by Dr. MK Singh, providing personalized healthcare, accurate diagnosis, and compassionate medical care with over 30 years of experience.",
         "keywords" => "About Sadhana Clinic, Dr M K Singh, Gurugram Physician",
         "canonical" => "",
         "robots" => "index, follow"
@@ -40,7 +40,7 @@ $seoData = [
     /* Contact */
     "contact-us.php" => [
         "title" => "Contact Sadhana Clinic | Book an Appointment in Gurugram",
-        "description" => "Contact Sadhana Clinic in Sector 65, Gurugram to book an appointment with Senior Consultant Physician Dr. M. K. Singh for expert medical consultation.",
+        "description" => "Contact Sadhana Clinic in Sector 65, Gurugram to book an appointment with Senior Consultant Physician Dr. MK Singh for expert medical consultation.",
         "keywords" => "contact Sadhana Clinic, appointment Gurugram, physician consultation",
         "canonical" => "",
         "robots" => "index, follow"

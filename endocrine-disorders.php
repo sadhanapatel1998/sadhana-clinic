@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Endocrine Disorders care at Sadhana Clinic focuses on comprehensive management of hormonal
                                     imbalances through accurate diagnosis, personalized treatment, and preventive care. Led by
-                                    Senior Consultant Physician <strong>Dr. M. K. Singh</strong>, with over <strong>30 years of
+                                    Senior Consultant Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of
                                     experience</strong>, we help patients manage thyroid disorders, hormonal imbalances, and
                                     long-term endocrine concerns with confidence and compassionate medical support.
                                 </p>

@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Diabetes Care at Sadhana Clinic focuses on comprehensive management of blood sugar levels through
                                     accurate diagnosis, personalized treatment, and preventive care. Led by Senior Consultant
-                                    Physician <strong>Dr. M. K. Singh</strong>, with over <strong>30 years of experience</strong>,
+                                    Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of experience</strong>,
                                     we help patients manage Type 1, Type 2, and gestational diabetes with confidence and compassionate
                                     medical support.
                                 </p>

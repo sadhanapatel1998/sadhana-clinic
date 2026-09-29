@@ -47,7 +47,7 @@ include('include/data.php');
                 <div class="vs-about__right wow animate__fadeInUp" data-wow-delay="0.2s">
                     <p>
                         Sadhana Clinic provides expert medical care by
-                        <strong>Dr. M. K. Singh, Director & Senior Consultant Internal Medicine, Narayana Super
+                        <strong>Dr. MK Singh, Director & Senior Consultant Internal Medicine, Narayana Super
                             Speciality Hospital, Gurugram</strong>,
                         with over <strong>30 years of experience</strong>. We offer expert consultation, accurate
                         diagnosis, and comprehensive treatment to help individuals and families achieve better health

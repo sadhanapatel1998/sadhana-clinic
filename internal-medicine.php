@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Internal Medicine at Sadhana Clinic focuses on comprehensive healthcare for adults through
                                     accurate diagnosis, personalized treatment, and preventive care. Led by Senior Consultant
-                                    Physician <strong>Dr. M. K. Singh</strong>, with over <strong>30 years of experience</strong>,
+                                    Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of experience</strong>,
                                     we help patients manage acute illnesses, chronic conditions, and long-term health concerns with
                                     confidence and compassionate medical support.
                                 </p>

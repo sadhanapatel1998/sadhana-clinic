@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Respiratory Medicine at Sadhana Clinic focuses on comprehensive lung health care through
                                     accurate diagnosis, personalized treatment, and preventive care. Led by Senior Consultant
-                                    Physician <strong>Dr. M. K. Singh</strong>, with over <strong>30 years of experience</strong>,
+                                    Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of experience</strong>,
                                     we help patients manage asthma, chronic respiratory conditions, and long-term breathing
                                     concerns with confidence and compassionate medical support.
                                 </p>
