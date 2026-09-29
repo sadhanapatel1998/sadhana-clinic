@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Infectious Disease care at Sadhana Clinic focuses on comprehensive management of bacterial,
                                     viral, and other infections through accurate diagnosis, personalized treatment, and preventive
-                                    care. Led by Senior Consultant Physician <strong>Dr. MK Singh</strong>, with over
+                                    care. Led by Senior Consultant Physician <strong><span class="doctor-name">Dr. M.K.Singh</span></strong>, with over
                                     <strong>30 years of experience</strong>, we help patients manage acute infections, chronic
                                     infectious conditions, and related complications with confidence and compassionate medical
                                     support.

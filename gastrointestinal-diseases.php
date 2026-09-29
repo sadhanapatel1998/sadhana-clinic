@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Gastrointestinal Disease care at Sadhana Clinic focuses on comprehensive digestive health care
                                     through accurate diagnosis, personalized treatment, and preventive care. Led by Senior
-                                    Consultant Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of
+                                    Consultant Physician <strong><span class="doctor-name">Dr. M.K.Singh</span></strong>, with over <strong>30 years of
                                     experience</strong>, we help patients manage acidity, digestive disorders, and long-term gut
                                     health concerns with confidence and compassionate medical support.
                                 </p>

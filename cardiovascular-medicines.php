@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     Cardiovascular Medicine at Sadhana Clinic focuses on comprehensive heart health care through
                                     accurate diagnosis, personalized treatment, and preventive care. Led by Senior Consultant
-                                    Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of experience</strong>,
+                                    Physician <strong><span class="doctor-name">Dr. M.K.Singh</span></strong>, with over <strong>30 years of experience</strong>,
                                     we help patients manage heart disease, cholesterol disorders, and long-term cardiovascular
                                     concerns with confidence and compassionate medical support.
                                 </p>

@@ -47,11 +47,14 @@ include('include/data.php');
                 <div class="vs-about__right wow animate__fadeInUp" data-wow-delay="0.2s">
                     <p>
                         Sadhana Clinic provides expert medical care by
-                        <strong>Dr. MK Singh, Director & Senior Consultant Internal Medicine, Narayana Super
-                            Speciality Hospital, Gurugram</strong>,
-                        with over <strong>30 years of experience</strong>. We offer expert consultation, accurate
-                        diagnosis, and comprehensive treatment to help individuals and families achieve better health
-                        with confidence.
+                        <strong>
+                            <span class="doctor-name">Dr. M.K.Singh,</span>
+                            Director & Senior Consultant Internal Medicine, Narayana Super
+                            Speciality Hospital, Gurugram
+                        </strong>,
+                        with over <strong>30 years of experience</strong>. We offer expert
+                        consultation, accurate diagnosis, and comprehensive treatment to help
+                        individuals and families achieve better health with confidence.
                     </p>
 
                     <div class="ab-Box">
@@ -120,26 +123,26 @@ include('include/data.php');
             data-nav-prev="#style1_prev">
             <div class="swiper-wrapper">
                 <?php foreach ($services as $service): ?>
-                <div class="swiper-slide vs-service--style5">
-                    <div class="vs-service__wrap">
-                        <div class="vs-service__img">
-                            <img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>" class="serImg">
-                            <div class="ser_icon">
-                                <i class="<?= $service['icon']; ?>"></i>
+                    <div class="swiper-slide vs-service--style5">
+                        <div class="vs-service__wrap">
+                            <div class="vs-service__img">
+                                <img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>" class="serImg">
+                                <div class="ser_icon">
+                                    <i class="<?= $service['icon']; ?>"></i>
+                                </div>
+                            </div>
+                            <div class="vs-service__txt">
+                                <a href="<?= $service['link']; ?>">
+                                    <h3><?= $service['title']; ?></h3>
+                                </a>
+                                <p><?= $service['desc']; ?></p>
+                                <a href="<?= $service['link']; ?>" class="ser_btn">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
                             </div>
                         </div>
-                        <div class="vs-service__txt">
-                            <a href="<?= $service['link']; ?>">
-                                <h3><?= $service['title']; ?></h3>
-                            </a>
-                            <p><?= $service['desc']; ?></p>
-                            <a href="<?= $service['link']; ?>" class="ser_btn">
-                                Read More
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
             </div>
             <div class="vs-navigation">

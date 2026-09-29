@@ -42,7 +42,7 @@ include('include/data.php');
                 <div class="vs-about__right wow animate__fadeInUp" data-wow-delay="0.2s">
                     <p>
                         Sadhana Clinic provides trusted and personalized medical care under the guidance of
-                        <strong>Dr. MK Singh, Director & Senior Consultant Internal Medicine, Narayana Super
+                        <strong><span class="doctor-name">Dr. M.K.Singh, </span> Director & Senior Consultant Internal Medicine, Narayana Super
                             Speciality Hospital, Gurugram</strong>,
                         who brings over <strong>30 years of experience</strong>. We offer expert consultation, accurate
                         diagnosis, and comprehensive treatment to help individuals and families achieve better health
@@ -75,10 +75,10 @@ include('include/data.php');
             <div class="col-lg-4">
                 <div class="doctor-Dpage__widget">
                     <div class="doctor_img">
-                        <img src="assets/img/about/doctor-img.jpg" alt="Dr. MK Singh" loading="lazy">
+                        <img src="assets/img/about/doctor-img.jpg" alt="Dr. M.K.Singh" loading="lazy">
                     </div>
                     <div class="Dpage_txt">
-                        <h2>Dr. MK Singh</h2>
+                        <h2><span class="doctor-name">Dr. M.K.Singh</span></h2>
                         <div class="vs-appoint__box wow animate__fadeInUp" data-wow-delay="0.3s">
                             <div class="appoint-content">
                                 <div class="appoint-icon">
@@ -135,7 +135,7 @@ include('include/data.php');
                     <h2>Professional Summary</h2>
 
                     <p>
-                        Dr. MK Singh is a highly experienced physician with over 30 years of expertise in Internal
+                        <span class="doctor-name">Dr. M.K.Singh, </span>is a highly experienced physician with over 30 years of expertise in Internal
                         Medicine.
                         He specializes in diagnosing and managing complex medical conditions, including diabetes,
                         endocrine disorders, infectious diseases, hypertension, cardiovascular and respiratory ailments,
@@ -151,7 +151,7 @@ include('include/data.php');
                     <h3>Field of Expertise</h3>
 
                     <p>
-                        Dr. MK Singh provides comprehensive internal medicine care with expertise across multiple
+                        <span class="doctor-name">Dr. M.K.Singh, </span>provides comprehensive internal medicine care with expertise across multiple
                         medical specialties, ensuring evidence-based treatment and personalized care for every patient.
                     </p>
 

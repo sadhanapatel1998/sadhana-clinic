@@ -14952,3 +14952,6 @@ a.text-theme:hover,
     height: 240px;
   }
 }
+.doctor-name {
+    white-space: nowrap;
+}

@@ -40,7 +40,7 @@ ob_start();
                                 <p>
                                     General Medicine at Sadhana Clinic focuses on comprehensive healthcare for everyday health
                                     concerns through accurate diagnosis, personalized treatment, and preventive care. Led by Senior
-                                    Consultant Physician <strong>Dr. MK Singh</strong>, with over <strong>30 years of
+                                    Consultant Physician <strong><span class="doctor-name">Dr. M.K.Singh</span></strong>, with over <strong>30 years of
                                     experience</strong>, we help patients manage common illnesses, seasonal infections, and
                                     ongoing health concerns with confidence and compassionate medical support.
                                 </p>
