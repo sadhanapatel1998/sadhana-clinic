@@ -59,8 +59,8 @@ include('include/data.php');
 
                     <div class="ab-Box">
                         <div class="question">
-                            <h3>Need a Consultation?</h3>
-                            <p>Get expert guidance for your health needs.</p>
+                            <h5>Get an Online Consultation</h5>
+                            <p>Consult with our doctor from the comfort of your home.</p>
                             <div class="d-inline-flex align-items-center">
                                 <div class="call-icon">
                                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
@@ -80,7 +80,7 @@ include('include/data.php');
                                 </div>
 
                                 <p class="e-call">
-                                    <span>Call for Appointment</span> <a href="tel:919319953320">+91 9319953320</a>
+                                    <span>Online Consultation</span> <a href="tel:919910431665">+91 9910431665</a>
                                 </p>
                             </div>
                         </div>
@@ -154,9 +154,37 @@ include('include/data.php');
                 </div>
             </div>
         </div>
+        <div class="sadhana-online-consult">
+
+            <div class="sadhana-consult-icon">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="sadhana-consult-content">
+                <span class="sadhana-consult-label">
+                    ONLINE CONSULTATION
+                </span>
+
+                <h3>Expert Care, Wherever You Are</h3>
+
+                <p>
+                    Connect with our doctor and get expert medical guidance
+                    from the comfort of your home.
+                </p>
+
+            </div>
+
+            <a href="tel:919910431665" class="sadhana-consult-action text-center">
+                <strong>+91 9910431665</strong>
+                <i class="fa-solid fa-arrow-up-right"></i>
+            </a>
+
+        </div>
     </div>
 </section>
 <!-- Service Part End -->
+
+
+
 
 <!-- Choose Part Start-->
 <section class="vs-choose space-top bg-title" data-bg-src="assets/img/bg/chose-h1-overImg.png">

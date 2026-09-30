@@ -64,7 +64,7 @@
                     <div class="call-icon">
                       <i class="fa-solid fa-headphones"></i>
                     </div>
-                    <p><span>Emergency Call</span>+91 9910431665</p>
+                    <p><span>Emergency Call</span>+91 9319953320</p>
                   </div>
 
                   <div class="d-none d-sm-inline-flex">

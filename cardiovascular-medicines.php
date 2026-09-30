@@ -36,7 +36,6 @@ ob_start();
                             <div class="blog-txt wow animate__fadeInUp" data-wow-delay="0.2s">
 
                                 <h2>Expert Cardiovascular Care for Better Health & Wellness</h2>
-
                                 <p>
                                     Cardiovascular Medicine at Sadhana Clinic focuses on comprehensive heart health care through
                                     accurate diagnosis, personalized treatment, and preventive care. Led by Senior Consultant
@@ -44,14 +43,12 @@ ob_start();
                                     we help patients manage heart disease, cholesterol disorders, and long-term cardiovascular
                                     concerns with confidence and compassionate medical support.
                                 </p>
-
                                 <p>
                                     Our patient-first approach combines evidence-based treatment with detailed health evaluations to
                                     ensure timely diagnosis and effective care. Whether you need routine heart check-ups, preventive
                                     healthcare, or treatment for complex cardiac conditions, our goal is to help you achieve better
                                     health and lasting wellness.
                                 </p>
-
                                 <h3>Comprehensive Cardiovascular Services</h3>
 
                                 <p>
@@ -59,7 +56,6 @@ ob_start();
                                     strong focus on early detection, personalized treatment plans, and long-term disease management
                                     for improved quality of life.
                                 </p>
-
                                 <ul>
                                     <li><i class="fa-solid fa-badge-check"></i> Comprehensive Heart Health Evaluations</li>
                                     <li><i class="fa-solid fa-badge-check"></i> Cholesterol & Lipid Management</li>
@@ -67,9 +63,7 @@ ob_start();
                                     <li><i class="fa-solid fa-badge-check"></i> ECG & Cardiac Risk Screening</li>
                                     <li><i class="fa-solid fa-badge-check"></i> Preventive Heart Health Check-ups</li>
                                 </ul>
-
                                 <h3>Conditions We Diagnose & Manage</h3>
-
                                 <p>
                                     We provide expert care for a broad range of cardiovascular conditions using modern diagnostic
                                     methods, personalized consultations, and continuous follow-up to support long-term health and
