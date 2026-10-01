@@ -165,7 +165,6 @@ include('include/data.php');
                 </span>
 
                 <h3>Expert Care, Wherever You Are</h3>
-
                 <p>
                     Connect with our doctor and get expert medical guidance
                     from the comfort of your home.

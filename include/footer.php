@@ -72,11 +72,26 @@
             <ul>
               <li><a href="internal-medicine.php">Internal Medicine</a></li>
               <li><a href="diabetes-care.php">Diabetes Care</a></li>
-              <li><a href="cardiovascular-medicines.php">Cardiovascular Care</a></li>
-              <li><a href="general-medicine.php">General Medicine</a></li>
+              <li><a href="endocrine-disorders.php">Endocrine Disorders</a></li>
+              <li><a href="infectious-diseases.php">Infectious Diseases</a></li>
+              <li><a href="hypertension.php">Hypertension</a></li>
             </ul>
           </div>
         </div>
+
+        <!-- Services -->
+        <!--<div class="vs-footer__wrapper-widget">
+          <h3 class="vs-footer__wrapper-title " >Our Services</h3>
+          <div class="vs-footer__wrapper-content">
+            <ul>
+              <li><a href="hypertension.php">Hypertension</a></li>
+              <li><a href="cardiovascular-medicines.php">Cardiovascular Medicines</a></li>
+              <li><a href="respiratory-medicines.php">Respiratory Medicines</a></li>
+              <li><a href="gastrointestinal-diseases.php">Gastrointestinal Diseases</a></li>
+              <li><a href="general-medicine.php">General Medicine</a></li>
+            </ul>
+          </div>
+        </div> -->
 
         <!-- Quick Links -->
         <div class="vs-footer__wrapper-widget">
@@ -98,9 +113,11 @@
           <div class="vs-footer__wrapper-content">
             <p>Schedule your consultation with our experienced physician today.</p>
 
-            <div class="subscribe">
-              <input type="text" placeholder="Enter Phone Number">
-              <button type="button">Book Now</button>
+            <div class="subscribe mt-4">
+              <a href="contact-us.php" class="vsBtn">
+                Get an Appointment
+                <span></span>
+              </a>
             </div>
           </div>
         </div>
